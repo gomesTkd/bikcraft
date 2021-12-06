@@ -10,6 +10,7 @@
 .botao {
   display: inline-block;
   padding: 16px 32px;
+  max-width: max-content;
   background: linear-gradient(#fb0, #f2a50c);
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -19,6 +20,15 @@
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.botao.secundario:hover {
+  background: var(--cor-9);
 }
 
 .link {
@@ -44,5 +54,28 @@
   .botao {
     padding: 12px 16px;
     font-size: 1rem;
+  }
+}
+
+/*titulo da página interna*/
+
+.titulo-bg {
+  padding: 60px 0px;
+  background: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding: 40px 0px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
