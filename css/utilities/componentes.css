@@ -12,10 +12,12 @@
   padding: 16px 32px;
   max-width: max-content;
   background: linear-gradient(#fb0, #f2a50c);
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -81,6 +83,10 @@
 .titulo-bg {
   padding: 60px 0px;
   background: var(--cor-11);
+}
+
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {

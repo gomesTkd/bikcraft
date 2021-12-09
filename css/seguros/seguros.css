@@ -6,12 +6,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  padding: 60px 0px;
+  padding: 60px 0;
   align-items: center;
 }
 
 #seguros .seguros {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .seguros h2 {
