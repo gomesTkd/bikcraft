@@ -10,6 +10,7 @@
 /*utilidades*/
 @import "./utilities/componentes.css";
 @import "./utilities/formulario.css";
+@import "./utilities/animacao.css";
 
 /*home*/
 @import "./home/introducao.css";
